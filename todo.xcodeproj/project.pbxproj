@@ -11,6 +11,8 @@
 		1EDB96AC2D0CE098006CF426 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB96AB2D0CE098006CF426 /* ContentView.swift */; };
 		1EDB96AE2D0CE099006CF426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB96AD2D0CE099006CF426 /* Assets.xcassets */; };
 		1EDB96B12D0CE099006CF426 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB96B02D0CE099006CF426 /* Preview Assets.xcassets */; };
+		1EDB96B92D0CE289006CF426 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB96B82D0CE289006CF426 /* TodoItem.swift */; };
+		1EDB96BB2D0CE611006CF426 /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB96BA2D0CE611006CF426 /* GlobalState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		1EDB96AB2D0CE098006CF426 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1EDB96AD2D0CE099006CF426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EDB96B02D0CE099006CF426 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EDB96B72D0CE154006CF426 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1EDB96B82D0CE289006CF426 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		1EDB96BA2D0CE611006CF426 /* GlobalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +40,7 @@
 		1EDB969D2D0CE098006CF426 = {
 			isa = PBXGroup;
 			children = (
+				1EDB96B72D0CE154006CF426 /* README.md */,
 				1EDB96A82D0CE098006CF426 /* todo */,
 				1EDB96A72D0CE098006CF426 /* Products */,
 			);
@@ -55,6 +61,8 @@
 				1EDB96AB2D0CE098006CF426 /* ContentView.swift */,
 				1EDB96AD2D0CE099006CF426 /* Assets.xcassets */,
 				1EDB96AF2D0CE099006CF426 /* Preview Content */,
+				1EDB96B82D0CE289006CF426 /* TodoItem.swift */,
+				1EDB96BA2D0CE611006CF426 /* GlobalState.swift */,
 			);
 			path = todo;
 			sourceTree = "<group>";
@@ -138,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EDB96AC2D0CE098006CF426 /* ContentView.swift in Sources */,
+				1EDB96B92D0CE289006CF426 /* TodoItem.swift in Sources */,
+				1EDB96BB2D0CE611006CF426 /* GlobalState.swift in Sources */,
 				1EDB96AA2D0CE098006CF426 /* todoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
